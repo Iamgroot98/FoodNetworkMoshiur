@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.unlist {
+    height: 40px;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: coral;
+    background-image: linear-gradient(coral, orange, Yellow);
+    padding: 10px 10px;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.colorised {
+    color: coral;
+}
+
+.flexible-container {
+    display: flex;
+    float: left;
+}
+
+.Diet {
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 2%;
+}
+
+.Diet img {
+    width: 100%;
+}
+
+#male {
+    margin-top: 25px;
+}
+
+.button {
+    /*done */
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: coral;
+    background-image: linear-gradient(coral, orange);
+    border-radius: 30px;
+    margin-top: 80px;
+    padding: 10px 20px;
+    position: absolute;
+}
+
+#top-button {
+    margin-top: 30px;
+}
+
+.About {
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: black;
+    margin-top: 300px;
+}
+
+.About img {
+    width: 55%;
+    margin-top: 9%;
+}
+
+.center {
+    text-align: center;
+}
+
+.Recipe {
+    float: left;
+    width: 25%;
+    box-shadow: 10px 10px 60px gray;
+    margin-left: 80px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.Recipe img {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.Media {
+    float: left;
+    width: 30%;
+    margin-left: 80px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.third-area {
+    width: 90%;
+    border: 5px solid whitesmoke;
+    border-radius: 50px;
+    margin: 40px;
+    padding-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.creds {
+    color: whitesmoke;
+}
+
+footer {
+    padding-top: 30px;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer h4 {
+    margin-top: 50px;
+    font-size: 23px;
+    color: silver;
+    font-weight: 800;
+}
+
+footer p {
+    color: white;
+}
+
+footer span {
+    color: rgba(211, 102, 62, 0.89);
+}
